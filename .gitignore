@@ -1,0 +1,21 @@
+cd C:\Users\kjraj\OneDrive\Desktop\campus-placement-system
+
+@"
+# Dependencies
+node_modules/
+web-app/node_modules/
+
+# Next.js build outputs
+.next/
+web-app/.next/
+out/
+
+# Environment variables & secrets
+.env
+.env.local
+web-app/.env.local
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
